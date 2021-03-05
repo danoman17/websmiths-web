@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+/*
+    font-family: 'Montserrat', sans-serif;
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+/* encabezado rapido */
+
+.contacto_rapido {
+    width: 100%;
+    height: 50px;
+    background: #C33C54;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+    
+}
+
+.contacto_rapido p {
+    margin-right: 100px;
+}
+
+.contacto_rapido a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Links a redes sociales navbar*/
+.contacto_rapido a .whats-nav {
+    width: 30px;
+    height: 30px;
+    background:#075e54;
+    margin: 0 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto_rapido a .whats-nav:hover {
+    color: #000;
+    -webkit-box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+}
+
+.contacto_rapido a .face-nav {
+    width: 30px;
+    height: 30px;
+    background: #3b5998;
+    margin: 0 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto_rapido a .face-nav:hover {
+    color: #000;
+    -webkit-box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+}
+
+.contacto_rapido a .insta-nav {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+    border-radius: 50px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacto_rapido a .insta-nav:hover {
+    color: #000;
+    -webkit-box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 39px -6px rgba(0,0,0,0.75);
+}
+
+
+/* header */
+
+nav {
+    overflow: hidden;
+    top: 50px;
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    padding: 20px;
+    background: #fff;
+    z-index: 998;
+    transition: all .2s ease;
+    
+    
+}
+
+.scl {
+    transform: translateY(-50px);
+    -webkit-box-shadow: 0px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 11px 0px rgba(0,0,0,0.75);
+    background: rgba(245, 241, 237, 0.9);
+
+}
+
+.izq {
+    float: left;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.izq .logo{
+    display: flex;
+    flex-direction: row;
+    cursor:default;
+}
+
+.izq .logo .img-logo {
+    background-image: url("../img/websimthsLogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 160px;
+    height: 80px;
+
+}
+
+/* .izq .logo .nombre-logo {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: #324259;
+    font-weight: bold;
+    font-size: 30px;
+} */
+
+.der {
+    float: right;
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.der ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    position: relative;
+    outline: none;
+}
+
+.der ul li a:hover {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 5px solid #000;
+}
+
+
+.der ul li {
+    display: inline-block;
+    height: 100%;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+    transition: all .2s ease-in;
+}
+
+/* .der ul li:hover {
+    transform: translateY(-5px);
+} */
+
+#check {
+	display: none;
+}
+
+
+
+.check_btn{
+	font-size: 30px;
+	color: #000;
+	float: right;
+	line-height: 45px;
+	margin-right: 50px;
+	cursor: pointer;
+	display: none;
+}
+
+#menu-responsive {
+    display: none;
+}
+
+
+/* ---------------------------------------------------Respoisive */
+
+@media all and (max-width:500px) {
+
+
+#menu-responsive {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: #324259;
+    top: 100px;
+    z-index: 999;
+    left: -100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    transition: all .5s;
+
+}
+
+#menu-responsive ul {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    
+}
+
+#menu-responsive ul li a{
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    font-size: 1.5rem;
+
+}
+
+
+.check_btn{
+	display: inline-block;
+	margin-right: 20px;
+	height: auto;
+	margin-top: 10px;
+}
+
+
+nav .der {
+display: none;
+}
+
+
+
+/* encabezado rapido */
+.contacto_rapido p {
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+
+/* header */
+
+
+nav {
+
+    padding: 0;
+
+}
+
+
+.izq {
+    float: left;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.izq .logo{
+    display: flex;
+    flex-direction: row;
+    cursor:default;
+}
+
+.izq .logo .img-logo {
+    background-image: url("../img/imgLogo.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center; 
+    width: 60px;
+    height: 30px;
+
+}
+
+.izq .logo .nombre-logo {
+
+    font-size: 20px;
+}
+
+
+
+}
+
+/* Home section */
+
+
+
+
+
