@@ -6,6 +6,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/fdd2e8457c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/mainStyles.css">
     <title>Websmiths</title>
@@ -68,27 +70,110 @@
 
     <section class="aboutUs">
 
-        <div class="contenedor">
+        <div class="contenedor__aboutUs">
             <div class="izquierda">
 
             </div>
             <div class="derecha">
-                <h3>¿Quiénes Somos?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi amet doloremque nulla eum veritatis. Ratione amet quos pariatur placeat sint sapiente itaque maxime enim quidem accusantium, velit consequuntur! Ratione!
-                Reiciendis in esse rem architecto praesentium quos aliquam quibusdam repellendus explicabo quidem fuga sit laboriosam, recusandae, quisquam perspiciatis laudantium ab tenetur delectus dolore consectetur omnis blanditiis aut. Aut, deserunt consectetur.</p>
+                <h3>Acerca de nosostros</h3>
+                <p>
+                Somos una empresa que está comprometida al desarrollo de software de calidad y profesional, decidida a ayudar a aquellas personas que quieran adentrarse en este mundo lleno de oportunidades a traves del diseño Web.   ¡ Te invitamos a descubrir las ventajas de mostrar tu marca al mundo entero !
+                </p>
+                <div class="att">
+                <p>Atte: El equipo de desarrolladores de Websmiths.</p>
+                </div>
+
+                <div class="btn_aboutUs_down">
+              
+                    <a href="#">
+                        <div class="btn__aboutUs">
+                        <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </a>
+ 
+                </div>
             </div>
         
         </div>
-
+        
+        
     </section>
 
 
-    
-    <!-- Seccion de paquetes -->
+    <!-- "Muestra tu marca" section -->
+
+    <section class="muestra">
+        <div class="container__muestra">
+            <div class="text__muestra">
+                <h2>Muéstrale a todo el mundo tu marca a tu manera </h2>
+                <p>El diseño web realizado por <strong>Websmiths</strong> es completamente a la medida y enfocado a las necesidades del cliente. Todos nuestros diseños son personalizados, sin uso de alguna plantilla. </p>
+            </div>
+            <div class="img__muestra">
+
+            </div>
+        </div>
+        <div class="btn__muestra">
+            <a href="#">
+                <div class="btn_muestra_real">
+                <i class="fas fa-chevron-down"></i>
+                </div>
+            </a>
+        </div>
+    </section>
+
 
     <section class="Lenguajes">
+        
+    </section>
+    
+     <!-- Seccion de paquetes -->
+
+    <section class="paquetes">
+
+
+        <div class="tarjeta">
+            <div class="arriba">
+
+            </div>
+            <div class="abajo">
+
+            </div>
+
+        </div>
+        <div class="tarjeta">
+            <div class="arriba">
+
+            </div>
+            <div class="abajo">
+
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="arriba">
+
+            </div>
+            <div class="abajo">
+
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="arriba">
+
+            </div>
+            <div class="abajo">
+
+            </div>
+        </div>
+    </section> 
+ 
+
+
+
+    <!-- portafolio section -->
+    <section class="portafolio">
 
     </section>
+ 
 
 
 
@@ -96,6 +181,9 @@
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/mainPageEffects.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	
 
 
 </body>
