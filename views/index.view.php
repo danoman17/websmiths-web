@@ -122,48 +122,110 @@
     </section>
 
 
-    <section class="Lenguajes">
-        
-    </section>
-    
      <!-- Seccion de paquetes -->
 
     <section class="paquetes">
+        <div class="wave__up">
+        </div>
+        
+        <div class="titulos">
+            <h2>Conoce nuestros paquetes</h2>
+            <hr>
+            <p>Conoce algunas de las opciones para construir tu sitio web o contactanos para pedir tu cotización</p>
+        </div>
+        <div class="tarjetas__parte__arriba">
 
 
-        <div class="tarjeta">
+            <div class="tarjeta">
+                <div class="arriba">
+                    <div class="img__contenedor__menuDigital">
+                        <div class="img__menuDigital"></div>
+                    </div>
+                    <div class="titulo__subtitulo">
+                        <h2>Menu Digital</h2>
+                        <p>
+                        Haz que el menú de tu negocio tenga un formato digital y pueda ser escaneado a traves de un código QR.
+                        </p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="abajo">
+                    <ul>
+                        <li>Opción de subir al sitio web hasta 100 imágenes.</li>
+                        <li>Oportunidad de realizar hasta 2 cambios por mes (no acomulables).</li>
+                        <li>Garantía de 2 años.</li>
+                        <li>Propiedad del código fuente.</li>
+                        <li>Diseño web a la medida.</li>
+                        <li>Diseño web responsivo.</li>
+                        <li>Hosting (1 año).</li>
+                        <li>Dominio (1 año).</li>
+                    </ul>
+                    
+                    <strong>Desde: $1,600 MXN</strong>
+
+                    <a href="#"> <div class="btn__menu"><p>Ver</p></div> </a>
+                </div>
+
+            </div>
+            <div class="tarjeta">
             <div class="arriba">
+                    <div class="img__contenedor__menuDigital">
+                        <div class="img__menuDigital"></div>
+                    </div>
+                    <div class="titulo__subtitulo">
+                        <h2>Web Personal</h2>
+                        <p>
+                        Ideal para mostrar al mundo tus proyectos, experiencia laboral, servicios y medios de contacto. 
+                        </p>
+                    </div>
+                </div>
 
-            </div>
-            <div class="abajo">
+                <hr>
 
+                <div class="abajo">
+                    <ul>
+                        <li>Opción de subir al sitio web hasta 50 imágenes.</li>
+                        <li>Oportunidad de realizar hasta 2 cambios por mes (no acomulables).</li>
+                        <li>Garantía de 2 años.</li>
+                        <li>Propiedad del código fuente.</li>
+                        <li>Diseño web a la medida.</li>
+                        <li>Diseño web responsivo.</li>
+                        <li>Pie de página / footer.</li>
+                        <li>Hosting (1 año).</li>
+                        <li>Dominio (1 año).</li>
+                    </ul>
+                    
+                    <strong>Desde: $1,800 MXN</strong>
+
+                    <a href="#"> <div class="btn__menu"><p>Ver</p></div> </a>
+                </div>
             </div>
+
 
         </div>
-        <div class="tarjeta">
-            <div class="arriba">
+        
 
+        <div class="tarjetas__parte__abajo">
+            <div class="tarjeta">
+                <div class="arriba">
+
+                </div>
+                <div class="abajo">
+
+                </div>
             </div>
-            <div class="abajo">
+            <div class="tarjeta">
+                <div class="arriba">
 
-            </div>
-        </div>
-        <div class="tarjeta">
-            <div class="arriba">
+                </div>
+                <div class="abajo">
 
-            </div>
-            <div class="abajo">
-
-            </div>
-        </div>
-        <div class="tarjeta">
-            <div class="arriba">
-
-            </div>
-            <div class="abajo">
-
+                </div>
             </div>
         </div>
+        
     </section> 
  
 
@@ -173,6 +235,12 @@
     <section class="portafolio">
 
     </section>
+
+    
+    <section class="Lenguajes">
+        
+    </section>
+    
  
 
 
