@@ -259,9 +259,9 @@
                         <div class="img__webAvanzado"></div>
                     </div>
                     <div class="titulo__subtitulo">
-                        <h2>Web Básico</h2>
+                        <h2>Web Avanzado</h2>
                         <p>
-                         Ideal para emprendedores y negocios pequeños/medianos. Da a conocer a tus futuros clientes sobre tus servicios o productos con estilo y presentación. 
+                        Ideal para negocios medianos o empresas. Da a conocer a tus futuros clientes sobre tus servicios o productos con estilo y presentación. 
                         </p>
                     </div>
                 </div>
@@ -270,8 +270,8 @@
 
                 <div class="abajo">
                     <ul>
-                        <li>Opción de subir al sitio web hasta 150 imágenes.</li>
-                        <li>1 - 7 secciones.</li>
+                        <li>Opción de subir al sitio web hasta 200 imágenes.</li>
+                        <li>7 secciones.</li>
                         <li>Certificacion SSL.</li>
                         <li>Garantía de 2 años.</li>
                         <li>Propiedad del código fuente.</li>
@@ -283,7 +283,7 @@
                         <li>Hosting y Dominio ( 1 año).</li>
                     </ul>
                     
-                    <strong>Desde: $3,100 MXN</strong>
+                    <strong>Desde: $4,100 MXN</strong>
 
                     <a href="#"> <div class="btn__webAvanzado"><p>Ver</p></div> </a>
                 </div>
