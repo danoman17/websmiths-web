@@ -169,10 +169,14 @@
                 </div>
 
             </div>
+
+
+            <!-- segunda tarjeta de la parte de arriba -->
+
             <div class="tarjeta">
             <div class="arriba">
-                    <div class="img__contenedor__menuDigital">
-                        <div class="img__menuDigital"></div>
+                    <div class="img__contenedor__webPersonal">
+                        <div class="img__webPersonal"></div>
                     </div>
                     <div class="titulo__subtitulo">
                         <h2>Web Personal</h2>
@@ -199,7 +203,7 @@
                     
                     <strong>Desde: $1,800 MXN</strong>
 
-                    <a href="#"> <div class="btn__menu"><p>Ver</p></div> </a>
+                    <a href="#"> <div class="btn__webPersonal"><p>Ver</p></div> </a>
                 </div>
             </div>
 
@@ -208,22 +212,88 @@
         
 
         <div class="tarjetas__parte__abajo">
+
+
+
             <div class="tarjeta">
                 <div class="arriba">
-
+                    <div class="img__contenedor__webBasico">
+                        <div class="img__webBasico"></div>
+                    </div>
+                    <div class="titulo__subtitulo">
+                        <h2>Web Básico</h2>
+                        <p>
+                         Ideal para emprendedores y negocios pequeños/medianos. Da a conocer a tus futuros clientes sobre tus servicios o productos con estilo y presentación. 
+                        </p>
+                    </div>
                 </div>
+
+                <hr>
+
                 <div class="abajo">
+                    <ul>
+                        <li>Opción de subir al sitio web hasta 150 imágenes.</li>
+                        <li>1 - 7 secciones.</li>
+                        <li>Certificacion SSL.</li>
+                        <li>Garantía de 2 años.</li>
+                        <li>Propiedad del código fuente.</li>
+                        <li>Diseño responsivo.</li>
+                        <li>Links directos a redes sociales .</li>
+                        <li>Pie de página / footer con políticas de la empresa.</li>
+                        <li>Barra de navegación (navbar). </li>
+                        <li>Formulario de contacto.</li>
+                        <li>Hosting y Dominio ( 1 año).</li>
+                    </ul>
+                    
+                    <strong>Desde: $3,100 MXN</strong>
 
+                    <a href="#"> <div class="btn__webBasico"><p>Ver</p></div> </a>
                 </div>
+
             </div>
+
+
             <div class="tarjeta">
                 <div class="arriba">
-
+                    <div class="img__contenedor__webAvanzado">
+                        <div class="img__webAvanzado"></div>
+                    </div>
+                    <div class="titulo__subtitulo">
+                        <h2>Web Básico</h2>
+                        <p>
+                         Ideal para emprendedores y negocios pequeños/medianos. Da a conocer a tus futuros clientes sobre tus servicios o productos con estilo y presentación. 
+                        </p>
+                    </div>
                 </div>
+
+                <hr>
+
                 <div class="abajo">
+                    <ul>
+                        <li>Opción de subir al sitio web hasta 150 imágenes.</li>
+                        <li>1 - 7 secciones.</li>
+                        <li>Certificacion SSL.</li>
+                        <li>Garantía de 2 años.</li>
+                        <li>Propiedad del código fuente.</li>
+                        <li>Diseño responsivo.</li>
+                        <li>Links directos a redes sociales .</li>
+                        <li>Pie de página / footer con políticas de la empresa.</li>
+                        <li>Barra de navegación (navbar). </li>
+                        <li>Formulario de contacto.</li>
+                        <li>Hosting y Dominio ( 1 año).</li>
+                    </ul>
+                    
+                    <strong>Desde: $3,100 MXN</strong>
 
+                    <a href="#"> <div class="btn__webAvanzado"><p>Ver</p></div> </a>
                 </div>
+
             </div>
+
+
+
+
+           
         </div>
         
     </section> 
@@ -237,10 +307,7 @@
     </section>
 
     
-    <section class="Lenguajes">
-        
-    </section>
-    
+
  
 
 
