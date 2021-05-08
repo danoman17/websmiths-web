@@ -280,7 +280,7 @@
                         <li>Pie de página / footer con políticas de la empresa.</li>
                         <li>Barra de navegación (navbar). </li>
                         <li>Formulario de contacto.</li>
-                        <li>Hosting y Dominio ( 1 año).</li>
+                        <li>Hosting y Dominio ( 1 año).</li>            
                     </ul>
                     
                     <strong>Desde: $4,100 MXN</strong>
@@ -290,13 +290,52 @@
 
             </div>
 
-
-
-
-           
         </div>
         
+
+        <section class="btn__cotizacion">
+            <div class="boton__paquetes__cotizacion">
+                <div class="texto">
+                    <p>
+                        Contactanos para pedir tu cotización sin costo
+                    </p>
+                </div>
+                <div class="flecha">
+                    <i class="fas fa-caret-right"></i>
+                </div>
+            </div>
+        </section>
+        
+
     </section> 
+
+
+    <!-- Seccion de Ventajas -->
+
+    <section class="ventajas">
+        <div class="wave__down"> </div>
+
+        <div class="contenedor__porqueSitioWeb">
+            <div class="contenedor">
+                <h2>¿Por qué un sitio web?</h2>
+                <p>
+                En la actualidad, y sobre todo, en estos tiempos de pandemia, la realidad actual es que el éxito de los negocios dependen en gran medida de las tecnologías que marcan su presencia en el mundo Web.
+
+                Tener presencia en el internet es una oportunidad para pequeñas y medianas empresas, pues está brinda credibilidad ante los clientes potenciales y ayuda a ser visibles en los buscadores, lo que puede tener diversos beneficios , tanto económicos como de impacto social , algo que se debería tomar en cuenta al momento de competir con otras empresas o querer alcanzar más gente con tu marca.
+
+                </p>
+            </div>
+            <div class="rocket__contenedor">
+                <div class="rocket"></div>
+            </div>
+        </div>
+
+        <div class="btn__ventajas__down">
+            <div class="btn__down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
  
 
 
