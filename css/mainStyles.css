@@ -587,6 +587,644 @@ img {
 
 }
 
+.paquetes {
+    height: auto;
+    width: 100%;
+
+}
+
+.paquetes .wave__up {
+    position: relative;
+    width: 100%;
+    height: 20vmax;
+    background: url(../img/wave__arriba.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paquetes .titulos{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+
+}
+
+.paquetes .titulos h2 { 
+    font-size: 2.5vmax;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.5vmax;
+}
+
+.paquetes .titulos hr { 
+    width: 10%;
+    border: 2px solid #000;
+    margin-bottom: 1.5vmax;
+
+}
+
+
+.paquetes .titulos p { 
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/* Inicia la sección de las tarjetas de la parte de arriba -----------------------------> */
+.paquetes .tarjetas__parte__arriba {
+    margin-top: 30px;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    /* background: coral; */
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta {
+    width: 25%;
+    min-width: 25rem;
+    height: 95%;
+    min-height: 65rem;
+    /* background: darkcyan; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+    -webkit-box-shadow: 4px 9px 54px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 9px 54px -8px rgba(0,0,0,0.75);
+    box-shadow: 4px 9px 54px -8px rgba(0,0,0,0.75);
+
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .arriba {
+    width: 100%;
+    height: 40%;
+    padding: 1vmax;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .arriba .img__contenedor__menuDigital {
+    width: 100%;
+    height: 12vmax;
+    background: #FFBD59;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translateY(-2.5vmax);
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+    box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .arriba .img__menuDigital {
+    width: 90%;
+    height: 100%;
+    background: url('../img/menuDigital.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    
+
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .arriba .img__contenedor__webPersonal {
+    width: 100%;
+    height: 12vmax;
+    background: #338BFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translateY(-2.5vmax);
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+    box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+
+}
+
+
+.paquetes .tarjetas__parte__arriba .tarjeta .arriba .img__webPersonal {
+    width: 90%;
+    height: 100%;
+    background: url('../img/webPersonal.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    
+}
+
+
+
+.paquetes .tarjetas__parte__arriba .tarjeta .arriba .titulo__subtitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .arriba .titulo__subtitulo h2 {
+    font-size: 2vmax;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: relative;
+    transform: translateY(-1.5vmax);
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .arriba .titulo__subtitulo p {
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+    /* transform: translateY(1vmax); */
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta hr {
+    width: 90%;
+    border: .5px solid grey;
+
+}
+
+
+
+
+.paquetes .tarjetas__parte__arriba .tarjeta .abajo {
+    width: 100%;
+    height: 60%;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.paquetes .tarjetas__parte__arriba .tarjeta .abajo ul {
+    height: 70%;
+    width: 100%;
+
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .abajo li {
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9vmax;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .abajo li::before {
+    content: '✓';
+    margin-right: 1vmax;
+    font-weight: bold;
+    
+}
+
+
+.paquetes .tarjetas__parte__arriba .tarjeta .abajo strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vmax;
+
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .abajo a {
+    text-decoration: none;
+    list-style: none;
+    width: 60%;
+    height: 50px;
+    
+}
+.paquetes .tarjetas__parte__arriba .tarjeta .abajo a .btn__menu {
+    width: 100%;
+    height: 100%;
+    background: #FFBD59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1vmax;
+    border-radius: 50px;
+}
+
+.paquetes .tarjetas__parte__arriba .tarjeta .abajo a .btn__webPersonal {
+    width: 100%;
+    height: 100%;
+    background: #338BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1vmax;
+    border-radius: 50px;
+}
+
+
+
+
+/* Tarjetas de la parte de abajo ---------------------------------------------> */
+.paquetes .tarjetas__parte__abajo {
+    margin-top: 100px;
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    /* background: crimson; */
+}
+
+
+
+.paquetes .tarjetas__parte__abajo .tarjeta {
+    width: 25%;
+    min-width: 25rem;
+    height: 90%;
+    min-height: 65rem;
+    /* background: darkcyan; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 9px 54px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 9px 54px -8px rgba(0,0,0,0.75);
+    box-shadow: 4px 9px 54px -8px rgba(0,0,0,0.75);
+
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .arriba {
+    width: 100%;
+    height: 40%;
+    padding: 1vmax;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .arriba .img__contenedor__webBasico {
+    width: 100%;
+    height: 12vmax;
+    background: #00A347;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translateY(-2.5vmax);
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+    box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .arriba .img__webBasico {
+    width: 90%;
+    height: 100%;
+    background: url('../img/webBasico.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    
+
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .arriba .img__contenedor__webAvanzado {
+    width: 100%;
+    height: 12vmax;
+    background: #D4EDF4;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translateY(-2.5vmax);
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+    box-shadow: 4px 9px 23px -9px rgba(0,0,0,0.75);
+
+}
+
+
+.paquetes .tarjetas__parte__abajo .tarjeta .arriba .img__webAvanzado {
+    width: 90%;
+    height: 100%;
+    background: url('../img/webAvanzado.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    
+}
+
+
+
+.paquetes .tarjetas__parte__abajo .tarjeta .arriba .titulo__subtitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .arriba .titulo__subtitulo h2 {
+    font-size: 2vmax;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: relative;
+    transform: translateY(-1.5vmax);
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .arriba .titulo__subtitulo p {
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+    /* transform: translateY(1vmax); */
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta hr {
+    width: 90%;
+    border: .5px solid grey;
+
+}
+
+
+
+
+.paquetes .tarjetas__parte__abajo .tarjeta .abajo {
+    width: 100%;
+    height: 60%;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.paquetes .tarjetas__parte__abajo .tarjeta .abajo ul {
+    height: 70%;
+    width: 100%;
+
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .abajo li {
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9vmax;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    list-style: none;
+    line-height: 15px;
+    
+
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .abajo li::before {
+    content: '✓';
+    margin-right: 1vmax;
+    font-weight: bold;
+    
+}
+
+
+.paquetes .tarjetas__parte__abajo .tarjeta .abajo strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vmax;
+
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .abajo a {
+    text-decoration: none;
+    list-style: none;
+    width: 60%;
+    height: 50px;
+}
+.paquetes .tarjetas__parte__abajo .tarjeta .abajo a .btn__webBasico {
+    width: 100%;
+    height: 100%;
+    background: #00A347;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1vmax;
+    border-radius: 50px;
+}
+
+.paquetes .tarjetas__parte__abajo .tarjeta .abajo a .btn__webAvanzado {
+    width: 100%;
+    height: 100%;
+    background: #D4EDF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1vmax;
+    border-radius: 50px;
+}
+
+
+
+/* Boton final de cotizacion (seccion de paquetes) */
+
+.btn__cotizacion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.paquetes .boton__paquetes__cotizacion {
+    height: 100px;
+    width: 35%;
+    background: #1D1D1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 35px;
+
+}
+
+.paquetes .boton__paquetes__cotizacion .flecha {
+    height: 100%;
+    width: 20%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+.paquetes .boton__paquetes__cotizacion .texto {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px 20px 50px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+
+/* Seccion de "ventajas" --------------------------------------------->  */
+
+.ventajas {
+    width: 100%;
+    height: 100vh;
+    background: #1D1D1F;
+}
+
+
+.ventajas .wave__down {
+    position: relative;
+    width: 100%;
+    height: 20vmax;
+    background: url(../img/wave.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.ventajas .contenedor__porqueSitioWeb {
+    width: 100%;
+    height: 95%;
+    /* background: cadetblue; */
+    background: #1D1D1F;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: relative; 
+    transform: translateY(-150px);
+}
+
+.ventajas .contenedor__porqueSitioWeb .contenedor {
+    height: 85%;
+    width: 60%;
+    background: #E32626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px 30px 100px;
+    border-radius: 60px 0 0 40px;
+}
+
+
+.ventajas .contenedor__porqueSitioWeb .contenedor h2 {
+    font-size: 7vmin;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+
+}
+.ventajas .contenedor__porqueSitioWeb .contenedor p {
+    font-size: 3vmin;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    font-weight: lighter;
+
+}
+
+.ventajas .contenedor__porqueSitioWeb .rocket__contenedor {
+    height: 85%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.ventajas .contenedor__porqueSitioWeb .rocket__contenedor .rocket {
+    position: relative;
+    background: url(../img/undraw_Outer_space_drqu.svg);
+    height: 60%;
+    width: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+
+
+.ventajas .btn__ventajas__down {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background: #1D1D1F;
+    transform: translateY(-150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ventajas .btn__ventajas__down .btn__down {
+    width: 15%;
+    height: 70%;
+    background: #575A89;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+
 
 /*Lenguajes de programación --> JP*/
 
@@ -597,52 +1235,14 @@ img {
 }
 
 
-/* Carousel Paquetees */
-
-/* .paquetes {
-    height: 150vh;
-    background: #FFF9EC;
-    width: 100%;
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 50px;
-}
 
 
-.paquetes .tarjeta {
-    width: 30%;
-    height: 50%;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-}
+/* Section "Portafolio" */
 
-
-.paquetes .tarjeta .arriba {
-    width: 100%;
-    height: 80%;
-    background: #2D1E2F;
-}
-.paquetes .tarjeta .abajo {
-    width: 100%;
-    height: 20%;
-    background: crimson;
-}
-
- */
- 
-
-
-
-/* Section ""Portafolio */
-
-.portafolio {
+/* .portafolio {
     width: 100%;
     height: 100vh;
-}
+} */
 
 
 

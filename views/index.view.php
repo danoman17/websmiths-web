@@ -128,49 +128,226 @@
     </section>
 
 
-    <section class="Lenguajes">
-        
-    </section>
-    
      <!-- Seccion de paquetes -->
 
     <section class="paquetes">
+        <div class="wave__up">
+        </div>
+        
+        <div class="titulos">
+            <h2>Conoce nuestros paquetes</h2>
+            <hr>
+            <p>Conoce algunas de las opciones para construir tu sitio web o contactanos para pedir tu cotización</p>
+        </div>
+        <div class="tarjetas__parte__arriba">
 
 
-        <div class="tarjeta">
-            <div class="arriba">
+            <div class="tarjeta">
+                <div class="arriba">
+                    <div class="img__contenedor__menuDigital">
+                        <div class="img__menuDigital"></div>
+                    </div>
+                    <div class="titulo__subtitulo">
+                        <h2>Menu Digital</h2>
+                        <p>
+                        Haz que el menú de tu negocio tenga un formato digital y pueda ser escaneado a traves de un código QR.
+                        </p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="abajo">
+                    <ul>
+                        <li>Opción de subir al sitio web hasta 100 imágenes.</li>
+                        <li>Oportunidad de realizar hasta 2 cambios por mes (no acomulables).</li>
+                        <li>Garantía de 2 años.</li>
+                        <li>Propiedad del código fuente.</li>
+                        <li>Diseño web a la medida.</li>
+                        <li>Diseño web responsivo.</li>
+                        <li>Hosting (1 año).</li>
+                        <li>Dominio (1 año).</li>
+                    </ul>
+                    
+                    <strong>Desde: $1,600 MXN</strong>
+
+                    <a href="#"> <div class="btn__menu"><p>Ver</p></div> </a>
+                </div>
 
             </div>
-            <div class="abajo">
+
+
+            <!-- segunda tarjeta de la parte de arriba -->
+
+            <div class="tarjeta">
+            <div class="arriba">
+                    <div class="img__contenedor__webPersonal">
+                        <div class="img__webPersonal"></div>
+                    </div>
+                    <div class="titulo__subtitulo">
+                        <h2>Web Personal</h2>
+                        <p>
+                        Ideal para mostrar al mundo tus proyectos, experiencia laboral, servicios y medios de contacto. 
+                        </p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="abajo">
+                    <ul>
+                        <li>Opción de subir al sitio web hasta 50 imágenes.</li>
+                        <li>Oportunidad de realizar hasta 2 cambios por mes (no acomulables).</li>
+                        <li>Garantía de 2 años.</li>
+                        <li>Propiedad del código fuente.</li>
+                        <li>Diseño web a la medida.</li>
+                        <li>Diseño web responsivo.</li>
+                        <li>Pie de página / footer.</li>
+                        <li>Hosting (1 año).</li>
+                        <li>Dominio (1 año).</li>
+                    </ul>
+                    
+                    <strong>Desde: $1,800 MXN</strong>
+
+                    <a href="#"> <div class="btn__webPersonal"><p>Ver</p></div> </a>
+                </div>
+            </div>
+
+
+        </div>
+        
+
+        <div class="tarjetas__parte__abajo">
+
+
+
+            <div class="tarjeta">
+                <div class="arriba">
+                    <div class="img__contenedor__webBasico">
+                        <div class="img__webBasico"></div>
+                    </div>
+                    <div class="titulo__subtitulo">
+                        <h2>Web Básico</h2>
+                        <p>
+                         Ideal para emprendedores y negocios pequeños/medianos. Da a conocer a tus futuros clientes sobre tus servicios o productos con estilo y presentación. 
+                        </p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="abajo">
+                    <ul>
+                        <li>Opción de subir al sitio web hasta 150 imágenes.</li>
+                        <li>1 - 7 secciones.</li>
+                        <li>Certificacion SSL.</li>
+                        <li>Garantía de 2 años.</li>
+                        <li>Propiedad del código fuente.</li>
+                        <li>Diseño responsivo.</li>
+                        <li>Links directos a redes sociales .</li>
+                        <li>Pie de página / footer con políticas de la empresa.</li>
+                        <li>Barra de navegación (navbar). </li>
+                        <li>Formulario de contacto.</li>
+                        <li>Hosting y Dominio ( 1 año).</li>
+                    </ul>
+                    
+                    <strong>Desde: $3,100 MXN</strong>
+
+                    <a href="#"> <div class="btn__webBasico"><p>Ver</p></div> </a>
+                </div>
+
+            </div>
+
+
+            <div class="tarjeta">
+                <div class="arriba">
+                    <div class="img__contenedor__webAvanzado">
+                        <div class="img__webAvanzado"></div>
+                    </div>
+                    <div class="titulo__subtitulo">
+                        <h2>Web Avanzado</h2>
+                        <p>
+                        Ideal para negocios medianos o empresas. Da a conocer a tus futuros clientes sobre tus servicios o productos con estilo y presentación. 
+                        </p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="abajo">
+                    <ul>
+                        <li>Opción de subir al sitio web hasta 200 imágenes.</li>
+                        <li>7 secciones.</li>
+                        <li>Certificacion SSL.</li>
+                        <li>Garantía de 2 años.</li>
+                        <li>Propiedad del código fuente.</li>
+                        <li>Diseño responsivo.</li>
+                        <li>Links directos a redes sociales .</li>
+                        <li>Pie de página / footer con políticas de la empresa.</li>
+                        <li>Barra de navegación (navbar). </li>
+                        <li>Formulario de contacto.</li>
+                        <li>Hosting y Dominio ( 1 año).</li>            
+                    </ul>
+                    
+                    <strong>Desde: $4,100 MXN</strong>
+
+                    <a href="#"> <div class="btn__webAvanzado"><p>Ver</p></div> </a>
+                </div>
 
             </div>
 
         </div>
-        <div class="tarjeta">
-            <div class="arriba">
+        
 
+        <section class="btn__cotizacion">
+            <div class="boton__paquetes__cotizacion">
+                <div class="texto">
+                    <p>
+                        Contactanos para pedir tu cotización sin costo
+                    </p>
+                </div>
+                <div class="flecha">
+                    <i class="fas fa-caret-right"></i>
+                </div>
             </div>
-            <div class="abajo">
+        </section>
+        
 
-            </div>
-        </div>
-        <div class="tarjeta">
-            <div class="arriba">
-
-            </div>
-            <div class="abajo">
-
-            </div>
-        </div>
-        <div class="tarjeta">
-            <div class="arriba">
-
-            </div>
-            <div class="abajo">
-
-            </div>
-        </div>
     </section> 
+
+
+    <!-- Seccion de Ventajas -->
+
+    <section class="ventajas">
+        <div class="wave__down"> </div>
+
+        <div class="contenedor__porqueSitioWeb">
+            
+            <div class="rocket__contenedor">
+                <div class="rocket"></div>
+            </div>
+
+
+
+            <div class="contenedor">
+                <h2>¿Por qué un sitio web?</h2>
+                <br><br>
+                <p>
+                En la actualidad, y sobre todo, en estos tiempos de pandemia, la realidad actual es que el éxito de los negocios dependen en gran medida de las tecnologías que marcan su presencia en el mundo Web.
+                <br><br>
+                Tener presencia en el internet es una oportunidad para pequeñas y medianas empresas, pues está brinda credibilidad ante los clientes potenciales y ayuda a ser visibles en los buscadores, lo que puede tener diversos beneficios , tanto económicos como de impacto social , algo que se debería tomar en cuenta al momento de competir con otras empresas o querer alcanzar más gente con tu marca.
+
+                </p>
+            </div>
+           
+        </div>
+
+        <div class="btn__ventajas__down">
+            <div class="btn__down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
  
 
 
@@ -179,6 +356,9 @@
     <section class="portafolio">
 
     </section>
+
+    
+
  
 
 
