@@ -1101,8 +1101,92 @@ nav {
 }
 
 
+.ventajas .contenedor__porqueSitioWeb {
+    width: 100%;
+    height: 95%;
+    /* background: cadetblue; */
+    background: #1D1D1F;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: relative; 
+    transform: translateY(-150px);
+}
+
+.ventajas .contenedor__porqueSitioWeb .contenedor {
+    height: 85%;
+    width: 60%;
+    background: #E32626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px 30px 100px;
+    border-radius: 60px 0 0 40px;
+}
 
 
+.ventajas .contenedor__porqueSitioWeb .contenedor h2 {
+    font-size: 7vmin;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+
+}
+.ventajas .contenedor__porqueSitioWeb .contenedor p {
+    font-size: 3vmin;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    font-weight: lighter;
+
+}
+
+.ventajas .contenedor__porqueSitioWeb .rocket__contenedor {
+    height: 85%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.ventajas .contenedor__porqueSitioWeb .rocket__contenedor .rocket {
+    position: relative;
+    background: url(../img/undraw_Outer_space_drqu.svg);
+    height: 60%;
+    width: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+
+
+.ventajas .btn__ventajas__down {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background: #1D1D1F;
+    transform: translateY(-150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ventajas .btn__ventajas__down .btn__down {
+    width: 15%;
+    height: 70%;
+    background: #575A89;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
 
 
 
