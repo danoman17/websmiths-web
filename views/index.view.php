@@ -172,7 +172,7 @@
                     
                     <strong>Desde: $1,600 MXN</strong>
 
-                    <a href="#"> <div class="btn__menu"><p>Ver</p></div> </a>
+                    <a href="pdf/Paquetes-Websmiths1.pdf" target="_blank"> <div class="btn__menu"><p>Ver</p></div> </a>
                 </div>
 
             </div>
@@ -210,7 +210,7 @@
                     
                     <strong>Desde: $1,800 MXN</strong>
 
-                    <a href="#"> <div class="btn__webPersonal"><p>Ver</p></div> </a>
+                    <a href="pdf/Paquetes-Websmiths2.pdf" target="_blank"> <div class="btn__webPersonal"><p>Ver</p></div> </a>
                 </div>
             </div>
 
@@ -254,7 +254,7 @@
                     
                     <strong>Desde: $3,100 MXN</strong>
 
-                    <a href="#"> <div class="btn__webBasico"><p>Ver</p></div> </a>
+                    <a href="pdf/Paquetes-Websmiths3.pdf" target="_blank"> <div class="btn__webBasico"><p>Ver</p></div> </a>
                 </div>
 
             </div>
@@ -292,7 +292,7 @@
                     
                     <strong>Desde: $4,100 MXN</strong>
 
-                    <a href="#"> <div class="btn__webAvanzado"><p>Ver</p></div> </a>
+                    <a href="pdf/Paquetes-Websmiths4.pdf" target="_blank"> <div class="btn__webAvanzado"><p>Ver</p></div> </a>
                 </div>
 
             </div>
