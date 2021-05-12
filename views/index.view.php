@@ -65,11 +65,12 @@
     <section class="home">
         <div class="row">
             <div class="col-1">
-                <h2>TU VISIÓN HECHA REALIDAD</h2>
-                <h4><i>En Websmiths creamos páginas web innovadoras para tu negocio</i></h4>
+                <img src="img/undraw_web_developer_p3e5.png" alt="dev">
             </div>
             <div class="col-2">
-                <img src="img/undraw_web_developer_p3e5.png" alt="dev">
+                <h2>TU VISIÓN HECHA REALIDAD</h2>
+                <br><br>
+                <h4><i>En Websmiths creamos páginas web innovadoras para tu negocio</i></h4>
             </div>
         </div>
     </section>
@@ -374,10 +375,3 @@
 
 </body>
 </html>
-
-
-<!-- 
-    ...que estoy haciendo aquí
-    no puedo hacer algo bien inclusive con
-    un tutorial...
--->
