@@ -209,7 +209,7 @@ nav {
 }
 
 
-/* ---------------------------------------------------Respoisive */
+/* ---------------------------------------------------Responsive */
 
 @media all and (max-width:500px) {
 
@@ -357,7 +357,13 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;/*creo que el error viene de arriba...*/
-}                  /*intenté cambiar el color del bkg a rojo y no responde....*/
+    /*intenté cambiar el color del bkg a rojo y no responde....*/
+}   
+   
+
+
+
+
 
 .home .wave1 {
     position: relative;
@@ -376,6 +382,15 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+@media all and (max-width:500px) {
+
+    .home .row {
+        flex-direction: column;
+        
+    }
+
 }
 
 .home .row .col-1 {
@@ -506,6 +521,24 @@ img {
     font-size: 3.5vmax;
 }
 
+/* Repsponsive para laptops  */
+@media all and (max-width:1500px) { 
+    .aboutUs .contenedor__aboutUs .derecha {
+        width: 40%;
+    }
+    .aboutUs .contenedor__aboutUs .derecha p  {
+        font-size: 1.8vmax;
+    }
+    .aboutUs .contenedor__aboutUs .derecha .att p  {
+        font-size: 1.2vmax;
+    }
+    .aboutUs .contenedor__aboutUs .derecha h3 {
+        font-size: 2.2vmax;
+    }
+
+
+
+}
 
 
 /* "Muestra tu marca" Section */
@@ -644,6 +677,35 @@ img {
     max-width: 600px;
     text-align: center;
 }
+
+
+
+/* Repsponsive para laptops  */
+@media (max-width:1500px) { 
+    .muestra .container__muestra .text__muestra p {
+        font-size: 2vmax;
+    }
+    .muestra .container__muestra{
+        height: 65%;
+    }
+
+    .muestra .btn__muestra a .btn_muestra_real {
+        width: 20vmax;
+        height: 5vmax;
+    }
+
+    .paquetes .titulos h2 {
+        font-size: 3vmax;
+    }
+
+    .paquetes .titulos p {
+        font-size: 1.3vmax;
+    }
+
+
+}
+
+
 
 
 /* Inicia la sección de las tarjetas de la parte de arriba -----------------------------> */
@@ -854,6 +916,66 @@ img {
     font-weight: bold;
     font-size: 1vmax;
     border-radius: 50px;
+}
+
+/* Repsponsive para laptops  */
+@media all and (max-width:1500px) { 
+
+
+    .paquetes .tarjetas__parte__arriba .tarjeta .arriba {
+        height: 35%;
+    }
+    .paquetes .tarjetas__parte__arriba .tarjeta .abajo {
+        height: 65%;
+    }
+
+
+    .paquetes .tarjetas__parte__arriba {
+        align-items: flex-start;
+        height: 115vh;
+    }
+    .paquetes .tarjetas__parte__arriba .tarjeta {
+        min-height: 55rem;
+        height: 90%;
+    
+    }
+
+    .paquetes .tarjetas__parte__arriba .tarjeta .arriba .titulo__subtitulo h2 {
+        font-size: 2vmax;
+        transform: translateY(0);
+    }
+    .paquetes .tarjetas__parte__arriba .tarjeta .arriba .titulo__subtitulo p {
+        transform: translateY(1.3vmax);
+        font-size: 1.2vmax;
+    }
+
+    .paquetes .tarjetas__parte__arriba .tarjeta .abajo li {
+        font-size: 1.2vmax;
+    }
+
+
+    .paquetes .tarjetas__parte__arriba .tarjeta .arriba .img__menuDigital {
+        width: 60%;
+        height: 80%;
+    }
+
+    .paquetes .tarjetas__parte__arriba .tarjeta .arriba .img__webPersonal {
+        width: 75%;
+        height: 95%;
+    }
+
+    .paquetes .tarjetas__parte__arriba .tarjeta .abajo strong {
+        font-size: 1.5vmax;
+    }
+
+    .paquetes .tarjetas__parte__arriba .tarjeta .abajo a .btn__menu {
+        font-size: 1.5vmax;
+    }
+    .paquetes .tarjetas__parte__arriba .tarjeta .abajo a .btn__webPersonal {
+        font-size: 1.5vmax;
+    }
+
+
 }
 
 
@@ -1074,6 +1196,71 @@ img {
 }
 
 
+/* Repsponsive para laptops  */
+@media all and (max-width:1500px) { 
+
+    .paquetes .tarjetas__parte__abajo {
+        align-items: flex-start;
+    }
+    .paquetes .tarjetas__parte__abajo .tarjeta {
+        min-height: 58rem;
+        height: 85%;
+    
+    }
+    .paquetes .tarjetas__parte__abajo .tarjeta .arriba {
+        height: 35%;
+    }
+
+    .paquetes .tarjetas__parte__abajo .tarjeta .abajo {
+        height: 65%;
+    }
+    .paquetes .tarjetas__parte__abajo .tarjeta .arriba .titulo__subtitulo p {
+        font-size: 1.2vmax;
+        transform: translateY(1.8vmax);
+    }
+    .paquetes .tarjetas__parte__abajo .tarjeta .abajo li {
+        font-size: 1.2vmax;
+    }
+
+    .paquetes .tarjetas__parte__abajo .tarjeta .arriba .img__webBasico {
+        width: 70%;
+        height: 80%;
+    }
+
+    .paquetes .tarjetas__parte__abajo .tarjeta .arriba .img__webAvanzado {
+        width: 75%;
+        height: 85%;
+        background-size: 55%;
+    }
+
+
+    .paquetes .tarjetas__parte__abajo .tarjeta .arriba .titulo__subtitulo h2 {
+        transform: translateY(0);
+    }
+
+
+    .paquetes .tarjetas__parte__abajo .tarjeta .abajo strong {
+        font-size: 1.5vmax;
+    }
+
+    .paquetes .tarjetas__parte__abajo .tarjeta .abajo a .btn__webBasico {
+        font-size: 1.5vmax;
+    }
+
+    .paquetes .tarjetas__parte__abajo .tarjeta .abajo a .btn__webAvanzado {
+        font-size: 1.5vmax;
+    }
+
+
+    
+
+
+
+
+}
+
+
+
 
 /* Boton final de cotizacion (seccion de paquetes) */
 
@@ -1236,6 +1423,31 @@ img {
 }
 
 
+/* Repsponsive para laptops  */
+@media all and (max-width:1500px) {  
+    .ventajas .contenedor__porqueSitioWeb .rocket__contenedor .rocket {
+        height: 70%;
+        width: 70%;
+        background-size: 100%;
+    }
+
+    .ventajas .contenedor__porqueSitioWeb .contenedor {
+        padding: 20px 90px 20px 90px; 
+    }
+
+    .ventajas .contenedor__porqueSitioWeb .contenedor h2 {
+        font-size: 5vmin;
+    }
+
+    .ventajas .contenedor__porqueSitioWeb .contenedor p {
+        font-size: 2.8vmin;
+    }
+
+
+}
+
+
+
 
 /*Lenguajes de programación --> JP*/
 
@@ -1274,7 +1486,7 @@ img {
 .portafolio .todoport .parrafo p{
     /*align-items: center;*/
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: center;
 }
 
@@ -1358,6 +1570,32 @@ img {
     text-align: left;
 }
 
+
+/* Repsponsive para laptops  */
+@media all and (max-width:1500px) {  
+
+    .portafolio .todoport .contenedorp {
+        height: 450px;
+        width: 80%;
+        margin: 90px auto;
+    }
+
+    .portafolio h3 {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .portafolio .caption {
+        font-size: 15px;
+
+    }
+
+
+
+}
+
 /*Fin de portafolio*/
 
 
@@ -1372,42 +1610,56 @@ img {
 
 .container1 .row{
     display: flex;
-    height: 88%;
+    height: 100%;
+    width: 100%;
     align-items: center;
+    flex-direction: row;
+
 }
 
 .container1 .row .colu{
-    flex-basis: 50%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    
 }
 
 .container1 .row .colu h2{
     color: white;
     font-size: 60px;
-    padding-left: 100px;
-    padding-bottom: 80px;
-    text-align: center;
+    font-weight: bold;
+    
 }
 
 .container1 .row .colu p{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 25px;
-    padding-left: 200px;
-    padding-right: 180px;
-    text-align: justify;
+    margin-top: 9vmax;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .colu1{
-    padding: 15px 200px 25px 200px;
+    
+    height: 100%;
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .cardi{
     width: 200px;
     height: 230px;
-    display: inline-block;
+    display: flex;
     border-radius: 10px;
-    /*padding: 15px 40px 25px 0px;*/
-    box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
     background-color: #00A7E1;
@@ -1416,6 +1668,19 @@ img {
     align-items: center;
     justify-content: center;
 }
+
+
+/* Repsponsive para laptops  */
+@media all and (max-width:1500px) {   
+
+
+
+}
+
+
+
+
+
 
 /*Fin Lenguajes*/
 
@@ -1441,8 +1706,8 @@ img {
 }
 
 .form-wrapper{
-    width: 900px;
-    height: 600px;
+    width: 85%;
+    height: 85%;
     background: #00A7E1;
     position: relative;
     overflow: hidden;
@@ -1473,15 +1738,19 @@ img {
 
 .form-content{
     background: #fff;
-    width: 350px;
-    height: 480px;
-    padding: 20px;
+    width: 40%;
+    height: 90%;
+    padding: 5px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 5%;
     z-index: 100;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .form-title{
@@ -1510,14 +1779,24 @@ img {
 
 .form-content .form-heading{
     text-align: center;
+    font-size: 2vmax;
 }
+.form {
+    height: 50%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 
+}
 .form-heading{
     margin-bottom: 20px;
 }
 
 .input{
-    width: 80%;
+    width: 100%;
     background: transparent;
     border: none;
     border-bottom: 1px solid #222;
@@ -1525,6 +1804,7 @@ img {
 }
 
 .input-wrapper{
+    width: 80%;
     margin-bottom: 30px;
     text-align: center;
     position: relative;
@@ -1533,18 +1813,20 @@ img {
 .input-wrapper label{
     position: absolute;
     bottom: 4px;
-    left: 10%;
-    font-size: 10px;
+    left: 1%;
+    font-size: 20px;
     color: #625f63;
     z-index: -1;
     transition: .3s;
 }
+
+
 .input:focus ~ label{
-    bottom: 20px;
+    bottom: 30px;
 }
 
 #message{
-    width: 80%;
+    width: 100%;
     background: transparent;
     border: none;
     height: 30px;
@@ -1554,22 +1836,23 @@ img {
 }
 
 .msg-wrapper{
+    width: 80%;
     position: relative;
     text-align: center;
 }
 
 .msg-wrapper label{
     position: absolute;
-    font-size: 10px;
+    font-size: 20px;
     color: #625f63;
-    left: 10%;
+    left: 1%;
     bottom: 8px;
     z-index: -1;
     transition: .3s;
 }
 
 #message:focus ~ label{
-    bottom: -10px;
+    bottom: 40px;
 }
 
 .btn-wrapper{
@@ -1579,7 +1862,7 @@ img {
 .btn{
     background: #7d64fe;
     border: none;
-    width: 100px;
+    width: 100%;
     padding: 8px 20px;
     border-radius: 100px;
     cursor: pointer;
@@ -1596,39 +1879,56 @@ img {
 /*Redes sociales*/
 
 
+.redes {
+    height: 50vh;
+    width: 100%;
+
+}
+
 .redes .redes-sociales {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     
 }
 
 .redes .redes-sociales ul {
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
 }
 
 .redes .redes-sociales ul li{
     list-style: none;
+    text-decoration: none;
     display: inline-block;
-    margin: 0 5px;
+    
 }
 
 .redes .redes-sociales ul li a{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     position: relative;
     overflow: hidden;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     text-align: center;
+    list-style: none;
 }
 
 .redes .redes-sociales ul li a i{
-    font-size: 60px;
+    font-size: 100px;
+    list-style: none;
 }
 
 .redes .redes-sociales ul li a:before{
