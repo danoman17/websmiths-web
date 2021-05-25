@@ -355,8 +355,9 @@ nav {
     display: flex; 
     flex-direction: row;
     justify-content: center;
-    align-items: center;/*creo que el error viene de arriba...*/
-}                  /*intenté cambiar el color del bkg a rojo y no responde....*/
+    align-items: center;
+    background-attachment: fixed;
+}                  
 
 .home .wave1 {
     position: relative;
@@ -375,6 +376,7 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /*background-attachment: fixed;*/
 }
 
 .home .row .col-1 {
@@ -384,6 +386,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-attachment: fixed;
 }
 
 .home .row .col-2 {
@@ -403,6 +406,12 @@ img {
 .home .row .col-2 h4 {
     font-size: 20px;
     text-align: center;
+}
+
+.home .row .col-2 a .primary {
+    background-color: darkgray;
+    color: #E18931;
+    border-radius: 50px;
 }
 
 /* About Us section */
