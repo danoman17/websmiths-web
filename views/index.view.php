@@ -6,6 +6,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/fdd2e8457c.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,6 +81,11 @@
         </div>
     </section>
 
+
+
+
+    
+
     <section class="aboutUs">
 
         <div class="contenedor__aboutUs">
@@ -106,6 +115,26 @@
         </div>
         
         
+    </section>
+
+    <!-- compromisos --> 
+    <section class="compromisos">
+    <div class="hechos" loading="lazy">
+				<div class="box">
+					<div class="contenido_hechos"><i class="far fa-clock"></i><p>Entregamos a tiempo</p></div>
+					<div class="contenido_hechos"><i class="far fa-star"></i><p>Diseños innovadores</p></div>
+					<div class="contenido_hechos"><i class="fas fa-user-alt"></i><p>Páginas personalizables</p></div>
+					<div class="contenido_hechos"><i class="fab fa-envira">Lorem ipsum</i><p></p></div>
+				</div>
+
+				<!--<div class="boton_section4">
+					<div class="boton_explorar">
+						<a href="catalogo.php">Explorar</a>
+					</div>
+				</div> -->
+
+
+			</div>
     </section>
 
 
@@ -351,29 +380,151 @@
             </div>
         </div>
     </section>
- 
-
 
 
     <!-- portafolio section -->
     <section class="portafolio">
 
+        <div class="todoport">
+            <h2>Portafolio</h2>
+            <div class="parrafo">
+            <p>Hemos desarrollado varias páginas web que han ayudado a mucha gente, en esta sección ponemos algunas de nuestras páginas desarrolladas.</p>
+            </div>
+            <div class="contenedorp">
+                <div class="col">
+                    <h3>PSICÓLOGO</h3>
+                    <div class="caption">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, eos.</p>
+                        <button type="button"><a href="http://www.psicologocarlosmur.com" target="blank">Visita la página</a> </button>
+                    </div>
+                    <img src="img/psicologia.png" alt="">
+                </div>
+                <div class="col">
+                    <h3>DOCTOR</h3>
+                    <div class="caption">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, eos.</p>
+                        <button type="button"><a href="http://implantehipofisiscerdo.site/"> Visita la página</a></button>
+                    </div>
+                    <img src="img/drmolecula.png" alt="">
+                </div>
+                <div class="col">
+                    <h3>ARTE</h3>
+                    <div class="caption">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, eos.</p>
+                        <button type="button"><a href="http://exvotosmexicanos.com/"> Visita la página</a></button>
+                    </div>
+                    <img src="img/pincel.png" alt="">
+                </div>
+            </div>
+        </div>
+
     </section>
 
-    
+    <!-- Lenguajes section -->
+    <section class="lenguajes">    
 
+        <div class="container1">
+
+            <div class="row">
+                <div class="colu">
+                    <h2>¿Qué lenguajes manejamos?</h2>
+                    <p>Nuestras páginas se desarrollan en diferentes lenguajes de programación, entre ellos están:</p>
+                </div>
+                <div class="colu1">
+                    <div class="cardi">
+                        <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+                    </div>
+                    <div class="cardi">
+                        <span class="iconify" data-icon="cib:css3-shiled" data-inline="false"></span>            
+                    </div>
+                    <div class="cardi">
+                        <span class="iconify" data-icon="cib:php" data-inline="false"></span>
+                    </div>
+                    <div class="cardi">
+                        <span class="iconify" data-icon="bx:bxl-jquery" data-inline="false"></span>            
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact form section -->
+    <section class="contactform">
+
+    <div class="wave_up1">
+    </div>
+
+    <div class="container">
+        <div class="form-wrapper">
+            <div class="form-title">
+                <p>¡Contáctanos!</p>
+            </div>
+            <div class="form-content">
+                <p class="form-heading">
+                    Ingresa tus datos
+                </p>
+                <form class="form">
+                    <div class="input-wrapper">
+                        <input type="text"  id="name" class="input">
+                        <label for="name">Nombre(s)</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text"  id="subject" class="input">
+                        <label for="subject">Apellidos</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="email"  id="email" class="input">
+                        <label for="name">Correo electrónico</label>
+                    </div>
+                    <div class="msg-wrapper">
+                        <textarea id="message"></textarea>
+                        <label for="message">Tu mensaje</label>
+                    </div>
+                </form>
+                <div class="btn-wrapper">
+                    <button class="btn">Enviar</button>
+                </div>
+            </div>
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+        </div>
+    </div>
+
+    </section>
+
+
+    <!-- Redes section -->
+    <section class="redes">
+
+
+    <div class="redes-sociales">
+        <ul>
+            <li><a href="#"><i class="fab fa-whatsapp fa-5x" aria-hidden="true"></i></a></li> 
+            <li><a href="#"><i class="fa fa-google fa-5x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+
+    </section>
  
-
-
-
-
+    <!-- footer -->
+    <section class="footer">
+        <footer>
+            <div class="footer-logo">
+                <img src="img/websmiths-logo.png" alt="">
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy;2021 Websmiths. Designed by <span>Websmiths</span></p>
+            </div>
+        </footer>
+    </section>
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/mainPageEffects.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	
-
-
 </body>
 </html>
