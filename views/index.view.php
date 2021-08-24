@@ -76,7 +76,7 @@
                 <br><br>
                 <h4><i>En Websmiths creamos páginas web innovadoras para tu negocio</i></h4>
                 <br><br><br>
-                <a href="#" class="btn-primario"><div class="primary"><p>Saber Más</p></div></a>
+                <a href="#" class="btn-primario"><div class="primary"><p><b>Saber Más</b></p></div></a>
             </div>
         </div>
     </section>
@@ -124,7 +124,7 @@
 					<div class="contenido_hechos"><i class="far fa-clock"></i><p>Entregamos a tiempo</p></div>
 					<div class="contenido_hechos"><i class="far fa-star"></i><p>Diseños innovadores</p></div>
 					<div class="contenido_hechos"><i class="fas fa-user-alt"></i><p>Páginas personalizables</p></div>
-					<div class="contenido_hechos"><i class="fab fa-envira">Lorem ipsum</i><p></p></div>
+					<!-- <div class="contenido_hechos"><i class="fab fa-envira">Lorem ipsum</i><p></p></div> -->
 				</div>
 
 				<!--<div class="boton_section4">
@@ -512,9 +512,9 @@
     <!-- footer -->
     <section class="footer">
         <footer>
-            <div class="footer-logo">
+            <!-- <div class="footer-logo">
                 <img src="img/websmiths-logo.png" alt="">
-            </div>
+            </div> -->
             <div class="footer-bottom">
                 <p>Copyright &copy;2021 Websmiths. Designed by <span>Websmiths</span></p>
             </div>
