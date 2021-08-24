@@ -2145,6 +2145,7 @@ footer {
     height: auto;
     width: 100%;
     padding-top: 40px;
+    /*justify-content: center;*/
 }
 
 .footer-logo {
@@ -2153,6 +2154,10 @@ footer {
     margin-right: auto;
     width: 50%;
     height: 50%;
+    /*justify-content: center;*/
+}
+
+.footer-logo img {
     justify-content: center;
 }
 
