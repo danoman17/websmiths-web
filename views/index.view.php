@@ -518,9 +518,9 @@
     <!-- footer -->
     
         <footer>
-            <!-- <div class="footer-logo">
-                <img src="img/websmiths-logo.png" alt="">
-            </div> -->
+            <div class="footer-logo">
+                <img src="../img/websmiths-logo.png" alt="">
+            </div>
             <div class="footer-bottom">
                 <p>Copyright &copy;2021 Websmiths. Designed by <span>Websmiths</span></p>
             </div>

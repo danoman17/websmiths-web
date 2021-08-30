@@ -418,7 +418,6 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-<<<<<<< HEAD
 .home .row .col-2 .btn-primario {
     display: flex;
     align-items: center;
@@ -444,15 +443,6 @@ nav {
     font-weight: bold;
     border-radius: 50px;
     
-=======
-.home .row .col-2 a .primary {
-    background-color: darkgray;
-    text-align: center;
-    color: #E18931;
-    border-radius: 50px;
-    height: 25px;
-    width: 100px;
->>>>>>> a7420976f4486e58ac1c7179df7bd2cb46b62cb9
 }
 
 /* About Us section */
@@ -582,13 +572,10 @@ nav {
 
 .compromisos .hechos {
 	width: 100%;
-<<<<<<< HEAD
 	height: 100%;
-	background-image: url("../img/websmiths-logo.png");
-=======
-	height: 40%;
+	
 	background-image: url("../img/mainimage-26.jpg");
->>>>>>> a7420976f4486e58ac1c7179df7bd2cb46b62cb9
+
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -2158,9 +2145,8 @@ nav {
 
 footer {
     background-color: #202225;
-    height: auto;
+    height: 30vh;
     width: 100%;
-<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2180,23 +2166,6 @@ footer .footer-logo img {
 
     max-width: 30%;
 
-=======
-    padding-top: 40px;
-    /*justify-content: center;*/
-}
-
-.footer-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
-    /*justify-content: center;*/
-}
-
-.footer-logo img {
-    justify-content: center;
->>>>>>> a7420976f4486e58ac1c7179df7bd2cb46b62cb9
 }
 
 .footer-bottom{
