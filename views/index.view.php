@@ -7,9 +7,6 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/fdd2e8457c.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,12 +68,13 @@
             <div class="col-1">
                 <img src="img/undraw_web_developer_p3e5.png" alt="dev">
             </div>
+
             <div class="col-2">
                 <h2>TU VISIÓN HECHA REALIDAD</h2>
-                <br><br>
+                
                 <h4><i>En Websmiths creamos páginas web innovadoras para tu negocio</i></h4>
-                <br><br><br>
-                <a href="#" class="btn-primario"><div class="primary"><p>Saber Más</p></div></a>
+                
+                <a href="#" class="btn-primario"><div class="primary"> Saber Más </div></a>
             </div>
         </div>
     </section>
@@ -120,20 +118,14 @@
     <!-- compromisos --> 
     <section class="compromisos">
     <div class="hechos" loading="lazy">
+
 				<div class="box">
 					<div class="contenido_hechos"><i class="far fa-clock"></i><p>Entregamos a tiempo</p></div>
 					<div class="contenido_hechos"><i class="far fa-star"></i><p>Diseños innovadores</p></div>
 					<div class="contenido_hechos"><i class="fas fa-user-alt"></i><p>Páginas personalizables</p></div>
 					<div class="contenido_hechos"><i class="fab fa-envira">Lorem ipsum</i><p></p></div>
 				</div>
-
-				<!--<div class="boton_section4">
-					<div class="boton_explorar">
-						<a href="catalogo.php">Explorar</a>
-					</div>
-				</div> -->
-
-
+				
 			</div>
     </section>
 
@@ -391,30 +383,37 @@
             <p>Hemos desarrollado varias páginas web que han ayudado a mucha gente, en esta sección ponemos algunas de nuestras páginas desarrolladas.</p>
             </div>
             <div class="contenedorp">
-                <div class="col">
-                    <h3>PSICÓLOGO</h3>
-                    <div class="caption">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, eos.</p>
-                        <button type="button"><a href="http://www.psicologocarlosmur.com" target="blank">Visita la página</a> </button>
+
+                <div class="fila1__imagenes">
+
+                    <div class="bloque">
+        
+                    <div class="portafolio__primeraimg"></div>
+                        <a href="http://exvotosmexicanos.com/" target="blank">
+                            <p>Exvotos Mexicanos</p>
+
+                        </a>
+                    </div>  
+
+                    <div class="bloque">
+                        <div class="portafolio__segundaimg"></div>
+                        <a href="http://www.psicologocarlosmur.com" target="blank">
+                            <p>Psicológo</p>
+                        </a>
+
                     </div>
-                    <img src="img/psicologia.png" alt="">
                 </div>
-                <div class="col">
-                    <h3>DOCTOR</h3>
-                    <div class="caption">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, eos.</p>
-                        <button type="button"><a href="http://implantehipofisiscerdo.site/"> Visita la página</a></button>
+                <div class="fila2__imagenes" >
+
+                    <div class="bloque">
+                        <div class="portafolio__terceraimg"></div>
+                        <a href="http://implanteglandulahipofisiscerdo.com/" target="blank">
+                            <p>Implante</p>
+
+                        </a>
                     </div>
-                    <img src="img/drmolecula.png" alt="">
                 </div>
-                <div class="col">
-                    <h3>ARTE</h3>
-                    <div class="caption">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, eos.</p>
-                        <button type="button"><a href="http://exvotosmexicanos.com/"> Visita la página</a></button>
-                    </div>
-                    <img src="img/pincel.png" alt="">
-                </div>
+
             </div>
         </div>
 
@@ -431,17 +430,23 @@
                     <p>Nuestras páginas se desarrollan en diferentes lenguajes de programación, entre ellos están:</p>
                 </div>
                 <div class="colu1">
-                    <div class="cardi">
-                        <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+
+                    <div class="up__colu1">
+                        <div class="cardi">
+                            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+                        </div>
+                        <div class="cardi">
+                            <span class="iconify" data-icon="cib:css3-shiled" data-inline="false"></span>            
+                        </div>
                     </div>
-                    <div class="cardi">
-                        <span class="iconify" data-icon="cib:css3-shiled" data-inline="false"></span>            
-                    </div>
-                    <div class="cardi">
-                        <span class="iconify" data-icon="cib:php" data-inline="false"></span>
-                    </div>
-                    <div class="cardi">
-                        <span class="iconify" data-icon="bx:bxl-jquery" data-inline="false"></span>            
+                    
+                    <div class="down__colu1" >
+                        <div class="cardi">
+                            <span class="iconify" data-icon="cib:php" data-inline="false"></span>
+                        </div>
+                        <div class="cardi">
+                            <span class="iconify" data-icon="bx:bxl-jquery" data-inline="false"></span>            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -453,8 +458,7 @@
     <!-- Contact form section -->
     <section class="contactform">
 
-    <div class="wave_up1">
-    </div>
+ 
 
     <div class="container">
         <div class="form-wrapper">
@@ -480,7 +484,7 @@
                     </div>
                     <div class="msg-wrapper">
                         <textarea id="message"></textarea>
-                        <label for="message">Tu mensaje</label>
+                        <label for="message">Asunto</label>
                     </div>
                 </form>
                 <div class="btn-wrapper">
@@ -510,7 +514,7 @@
     </section>
  
     <!-- footer -->
-    <section class="footer">
+    
         <footer>
             <div class="footer-logo">
                 <img src="img/websmiths-logo.png" alt="">
@@ -519,7 +523,7 @@
                 <p>Copyright &copy;2021 Websmiths. Designed by <span>Websmiths</span></p>
             </div>
         </footer>
-    </section>
+    
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/mainPageEffects.js"></script>
