@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/fdd2e8457c.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/mainStyles.css">
     <title>Websmiths</title>
 </head>
@@ -382,7 +382,7 @@
         <div class="todoport">
             <h2>Portafolio</h2>
             <div class="parrafo">
-            <p>Hemos desarrollado varias páginas web que han ayudado a mucha gente, en esta sección ponemos algunas de nuestras páginas desarrolladas.</p>
+            <p>Hemos desarrollado varias páginas web que han ayudado a mucha gente.</p>
             </div>
             <div class="contenedorp">
 
@@ -429,7 +429,7 @@
             <div class="row">
                 <div class="colu">
                     <h2>¿Qué lenguajes manejamos?</h2>
-                    <p>Nuestras páginas se desarrollan en diferentes lenguajes de programación, entre ellos están:</p>
+                    <p>Nuestras páginas se desarrollan con ayuda de las siguientes tecnologías:</p>
                 </div>
                 <div class="colu1">
 
@@ -460,43 +460,41 @@
     <!-- Contact form section -->
     <section class="contactform">
 
- 
-
-    <div class="container">
-        <div class="form-wrapper">
-            <div class="form-title">
-                <p>¡Contáctanos!</p>
-            </div>
-            <div class="form-content">
-                <p class="form-heading">
-                    Ingresa tus datos
-                </p>
-                <form class="form">
-                    <div class="input-wrapper">
-                        <input type="text"  id="name" class="input">
-                        <label for="name">Nombre(s)</label>
-                    </div>
-                    <div class="input-wrapper">
-                        <input type="text"  id="subject" class="input">
-                        <label for="subject">Apellidos</label>
-                    </div>
-                    <div class="input-wrapper">
-                        <input type="email"  id="email" class="input">
-                        <label for="name">Correo electrónico</label>
-                    </div>
-                    <div class="msg-wrapper">
-                        <textarea id="message"></textarea>
-                        <label for="message">Asunto</label>
-                    </div>
-                </form>
-                <div class="btn-wrapper">
-                    <button class="btn">Enviar</button>
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="form-title">
+                    <p>¡Contáctanos!</p>
                 </div>
+                <div class="form-content">
+                    <p class="form-heading">
+                        Ingresa tus datos
+                    </p>
+                    <form class="form">
+                        <div class="input-wrapper">
+                            <input type="text"  id="name" class="input">
+                            <label for="name">Nombre(s)</label>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="text"  id="subject" class="input">
+                            <label for="subject">Apellidos</label>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="email"  id="email" class="input">
+                            <label for="name">Correo electrónico</label>
+                        </div>
+                        <div class="msg-wrapper">
+                            <textarea id="message"></textarea>
+                            <label for="message">Asunto</label>
+                        </div>
+                    </form>
+                    <div class="btn-wrapper">
+                        <button class="btn">Enviar</button>
+                    </div>
+                </div>
+                <div class="circle-1"></div>
+                <div class="circle-2"></div>
             </div>
-            <div class="circle-1"></div>
-            <div class="circle-2"></div>
         </div>
-    </div>
 
     </section>
 

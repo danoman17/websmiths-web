@@ -625,33 +625,29 @@ nav {
 	
 }
 
-
+/*responsive --------------------------------------------------------*/
 
 @media (max-width: 1500px) and (min-width:1024px) {
+
 	.compromisos .hechos .box .contenido_hechos {
 		font-size: 1em;
 	}
 	.compromisos .hechos .box .contenido_hechos i {
-		font-size: 40px;
+		font-size: 50px;
 	}
 
-
-	.compromisos .hechos .boton_section4 {
-	
-		height: 30%;
-	
-	}
+    .compromisos .hechos .box .contenido_hechos p {
+        font-size: 22px ;
+    }
 
 	.compromisos .hechos .box {
-
-		height: 70%;
-	
+		height: 100%;
 	}
 	
 }
 
 
-@media (max-width: 1024px){
+/* @media (max-width: 1024px){
 	.compromisos .hechos{
 		height: auto;
 	}
@@ -680,11 +676,11 @@ nav {
 	.compromisos .hechos .boton_section4 .boton_explorar a {
 		font-size: 1.5rem;
 	}
-} 
+}  */
 
 
 
-/* "Muestra tu marca" Section */
+/* "Muestra tu marca" Section --------------------------------------------------*/
 
 .muestra {
     height: 120vh;
@@ -774,6 +770,38 @@ nav {
 
 }
 
+@media (max-width: 1500px) and (min-width:1024px) {
+
+}
+/* Repsponsive para laptops  */
+@media (max-width:1500px) { 
+    .muestra .container__muestra .text__muestra p {
+        font-size: 2vmax;
+    }
+    .muestra .container__muestra{
+        height: 65%;
+    }
+
+    .muestra .btn__muestra a .btn_muestra_real {
+        width: 20vmax;
+        height: 5vmax;
+    }
+
+    .paquetes .titulos h2 {
+        font-size: 3vmax;
+    }
+
+    .paquetes .titulos p {
+        font-size: 1.3vmax;
+    }
+
+
+}
+
+
+
+/*Section paquetes ------------------------------------------------------------*/
+
 .paquetes {
     height: auto;
     width: 100%;
@@ -821,30 +849,21 @@ nav {
     text-align: center;
 }
 
-
-
-/* Repsponsive para laptops  */
-@media (max-width:1500px) { 
-    .muestra .container__muestra .text__muestra p {
-        font-size: 2vmax;
+@media (max-width: 1500px) and (min-width:1024px) {
+    .paquetes .wave__up {
+        top: -10px;
     }
-    .muestra .container__muestra{
-        height: 65%;
+    .paquetes .titulos{ 
+        height: 25vh;
     }
-
-    .muestra .btn__muestra a .btn_muestra_real {
-        width: 20vmax;
-        height: 5vmax;
-    }
-
-    .paquetes .titulos h2 {
+    .paquetes .titulos h2 { 
         font-size: 3vmax;
     }
 
-    .paquetes .titulos p {
-        font-size: 1.3vmax;
+    .paquetes .titulos p { 
+        font-size: 1.5vmax;
+      
     }
-
 
 }
 
@@ -1394,15 +1413,7 @@ nav {
         font-size: 1.5vmax;
     }
 
-
-    
-
-
-
-
 }
-
-
 
 
 /* Boton final de cotizacion (seccion de paquetes) */
@@ -1573,37 +1584,24 @@ nav {
         width: 70%;
         background-size: 100%;
     }
-
     .ventajas .contenedor__porqueSitioWeb .contenedor {
         padding: 20px 90px 20px 90px; 
     }
-
     .ventajas .contenedor__porqueSitioWeb .contenedor h2 {
         font-size: 5vmin;
     }
-
     .ventajas .contenedor__porqueSitioWeb .contenedor p {
         font-size: 2.8vmin;
+    }
+    .ventajas .btn__ventajas__down {
+        position: relative;
+       top: -5px;
     }
 
 
 }
 
-
-
-
-/*Lenguajes de programación --> JP*/
-
-.Lenguajes {
-    height: 50vh;
-    width: 100%;
-    background: chocolate;
-}
-
-
-
-
-/* Section "Portafolio" */
+/* Section "Portafolio" ------------------------------------------------------*/
 
 .portafolio {
     display: flex;
@@ -1767,24 +1765,6 @@ nav {
 /* Repsponsive para laptops -------------------------------------- */
 @media all and (max-width:1500px) {  
 
-    .portafolio .todoport .contenedorp {
-        height: 450px;
-        width: 80%;
-        margin: 90px auto;
-    }
-
-    .portafolio h3 {
-        font-size: 25px;
-        font-weight: bold;
-        font-family: 'Montserrat', sans-serif;
-
-    }
-
-    .portafolio .caption {
-        font-size: 15px;
-
-    }
-
 
 
 }
@@ -1792,7 +1772,16 @@ nav {
 /*Fin de portafolio*/
 
 
-/*Lenguajes*/
+/*Lenguajes---------------------------------------------------------------------*/
+/*Lenguajes de programación --> JP*/
+
+.Lenguajes {
+    height: 50vh;
+    width: 100%;
+    background: chocolate;
+}
+
+
 
 .container1{
     width: 100%;
@@ -1867,17 +1856,16 @@ nav {
 
 /* Repsponsive para laptops  */
 @media all and (max-width:1500px) {   
-
+    .cardi{
+        width: 230px;
+        margin-bottom: 30px;
+    }
 
 
 }
 
-/*Fin Lenguajes*/
 
-
-
-
-/* Formulario de contacto */
+/* Formulario de contacto -------------------------------------------------------*/
 
 
 .container{
@@ -2057,11 +2045,38 @@ nav {
 }
 
 
-/*Formulario de contacto fin*/
-
+/*responsive contacto */
+@media all and (max-width:1500px) {   
+    .form-wrapper{
+        width: 80%;
+        height: 85%;
+        background: #00A7E1;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px 3px #999;
+    }
+    .form-content{
+        
+        width: 55%;
+    }
+    .btn-wrapper{
+        width: 70%;
+        height: 50px;
+    }
+    .btn{
+        background: #7d64fe;
+        border: none;
+        width: 100%;
+        height: 100%;
+        padding: 8px 20px;
+        margin-top: 0;
+    }
+    
+    
+}
 
 /*Redes sociales*/
-
 
 .redes {
     height: 50vh;
@@ -2137,9 +2152,14 @@ nav {
     color: #fff;
 }
 
+/*Responsive redes sociales*/
+@media all and (max-width:1500px) {  
+    .redes .redes-sociales ul {
+        height: 80%;
+    }
+}
 
 
-/*Redes sociales fin*/
 
 /* footer */
 
